@@ -1,0 +1,21 @@
+---
+extends: airbnb
+env:
+  node: true
+  browser: true
+globals:
+  React: true
+  ReactDom: true
+settings:
+  import/resolver: webpack
+plugins:
+  - react
+rules:
+  semi:
+    - 1
+    - always
+  react/react-in-jsx-scope:
+    - 1
+  prefer-const:
+    - 0
+...
